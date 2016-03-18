@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site </title>
+    <link>http://blogs.wordadoplicus.com/</link>
+    <language>en-us</language>
+    <author></author>
+    <rights>(C) 2016</rights>
+    <updated>2016-03-18 15:59:37 &#43;0000 UTC</updated>
+
+    
+      
+    
+      
+        <item>
+          <title>test2</title>
+          <link>http://blogs.wordadoplicus.com/post/test2/</link>
+          <pubDate>Fri, 18 Mar 2016 15:59:13 UTC</pubDate>
+          <author></author>
+          <guid>http://blogs.wordadoplicus.com/post/test2/</guid>
+          <description></description>
+        </item>
+      
+    
+      
+        <item>
+          <title>test</title>
+          <link>http://blogs.wordadoplicus.com/post/test/</link>
+          <pubDate>Fri, 18 Mar 2016 15:49:11 UTC</pubDate>
+          <author></author>
+          <guid>http://blogs.wordadoplicus.com/post/test/</guid>
+          <description>&lt;p&gt;This is some test contet&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>
