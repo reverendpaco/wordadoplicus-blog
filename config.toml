@@ -1,3 +1,8 @@
-baseurl = "http://blogs.wordadoplicus.com/"
+baseurl = "http://blog.wordadoplicus.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Whispers of Dinotechture"
+subtitle = " of Dinotechture"
+
+[params]
+  GoogleAnalyticsUserID  = "bobby" # optional
+  Author = "Shekhar Gulati"
