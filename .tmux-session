@@ -1,0 +1,3 @@
+Hugo	Hugo Netstat	/home/vagrant	sudo watch -c grc netstat -tlnp
+Hugo	Hugo Code	/home/vagrant/site	vim
+Hugo	Hugo Webserver	/home/vagrant/site	hugo server --buildDrafts --bind="0.0.0.0" --theme=hugo_theme_robust_wordadoplicus  -v
