@@ -1,6 +1,7 @@
 +++
 date = "2016-03-23T11:36:29-04:00"
 title = "Wordadoplicus Site Architecture"
+image = "typewriter-1138293_1920.png"
 author = "Daniel Eklund"
 +++
 
