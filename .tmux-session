@@ -1,3 +1,5 @@
 Hugo	Hugo Netstat	/home/vagrant	sudo watch -c grc netstat -tlnp
-Hugo	Hugo Code	/home/vagrant/site	vim
+Hugo	Hugo Blog Sourc	/home/vagrant/site	vim
 Hugo	Hugo Webserver	/home/vagrant/site	hugo server --buildDrafts --bind="0.0.0.0" --theme=hugo_theme_robust_wordadoplicus  -v
+Hugo	Hugo Generation	/home/vagrant/site	# rm -rf ~/site/publice &&  hugo  --theme=hugo_theme_robust_wordadoplicus
+Hugo	AWS Upload	/home/vagrant/site	#aws s3 sync ~/site/public/ s3://blog.wordadoplicus.com
