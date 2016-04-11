@@ -7,5 +7,5 @@ author = "Daniel Eklund"
 
 Architecture is an overloaded term. In this blog post, we mean architecture to  
 
-![architecture](/images/architecture.png)
+ ![architecture](/images/architecture.png)
 

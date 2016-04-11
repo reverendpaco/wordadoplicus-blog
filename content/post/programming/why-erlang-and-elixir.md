@@ -2,20 +2,20 @@
 date = "2016-04-11T19:28:11Z"
 draft = true
 title = "why erlang and elixir"
-image = "elixirAndErlang.png"
+image = "whyElixirAndErlang.png"
 tags = ["erlang","elixir" ] 
 +++
 
 
-I had drawn the following picture while I was at the Elixir Conference down in Austin.  
-
-![iceberg](/images/iceberg.png)
+I had drawn the following picture while I was at the Elixir Conference in Austin this past October.  
 
  It displayed my understanding of the power and promise of Elixir, not as a
- brand new language with heretofore unknown features, but as the fulfillment of
+ completely new language with heretofore unknown features, but as the fulfillment of
  the underlying Erlang technology. And, for those of you who don't quite get
  the metaphor, Elixir is just the tip of the iceberg, as a massive ecosystem of
  Erlang lurks below.
+
+![iceberg](/images/iceberg.png)
 
  Neither does this statement indict Erlang as ‘unfulfilled’ nor diminish Elixir
  as merely a technology that rides on the coattails of another.  I have extreme

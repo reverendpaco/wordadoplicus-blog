@@ -3,3 +3,9 @@ header div {
   background-image: url(/images/background2.png);
   background-repeat: no-repeat;
 }
+
+header.site .subtitle {
+  font-family: 'Marcellus SC', cursive;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+}

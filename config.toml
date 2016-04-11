@@ -1,9 +1,9 @@
 baseurl = "http://blog.wordadoplicus.com/"
+copyright = "&copy; 2016 Wordadoplicus LLC"
 languageCode = "en-us"
 title = "Whispers of Dinotechture"
-subtitle = " of Dinotechture"
 
 [params]
   GoogleAnalyticsUserID  = "bobby" # optional
-  Author = "Shekhar Gulati"
-  Subtitle = "A blog on Implementeing Wordadoplicus.com"
+  Author = "Daniel Eklund"
+  Subtitle = "A blog on Implementing Wordadoplicus.com"
