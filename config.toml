@@ -6,3 +6,4 @@ subtitle = " of Dinotechture"
 [params]
   GoogleAnalyticsUserID  = "bobby" # optional
   Author = "Shekhar Gulati"
+  Subtitle = "A blog on Implementeing Wordadoplicus.com"
