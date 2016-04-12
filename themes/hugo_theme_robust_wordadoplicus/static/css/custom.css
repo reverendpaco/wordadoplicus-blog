@@ -1,18 +1,18 @@
 header.site  {
-
-  background-image: url(/images/background2.png);
-  background-size: cover ;
+    background: transparent url(/images/background2.png) 0 0 repeat-x fixed;
+    padding-bottom: 100;
 }
 
 header.site .subtitle {
   font-family: 'Marcellus SC', cursive;
   font-size: 1.2rem;
   padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 
 header .both-titles{
-  opacity: 0.9;
+  opacity: 0.95;
   background-color: white;
 }
 
