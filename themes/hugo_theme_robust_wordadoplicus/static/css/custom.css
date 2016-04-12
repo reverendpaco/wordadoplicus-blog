@@ -20,3 +20,7 @@ header .both-titles{
   background-color: white;
   opacity: 0.9;
 }
+
+footer.site  {
+    background: transparent url(/images/background-bottom.png) 100% 100% repeat-x fixed;
+}
