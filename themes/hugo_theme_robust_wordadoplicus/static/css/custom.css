@@ -1,11 +1,22 @@
-header div {
+header.site  {
 
   background-image: url(/images/background2.png);
-  background-repeat: no-repeat;
+  background-size: cover ;
 }
 
 header.site .subtitle {
   font-family: 'Marcellus SC', cursive;
   font-size: 1.2rem;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+
+header .both-titles{
+  opacity: 0.9;
+  background-color: white;
+}
+
+.subtitle span{
+  background-color: white;
+  opacity: 0.9;
 }

@@ -116,8 +116,9 @@ be redundant with each other, but approach using a different angle):
 
 
 
+{{< panel >}}
   Rule 1:  Get an Elixir Release.  It contains Erlang, but not Vice Versa
-
+{{< /panel >}}
   I think I’ll just leap in and state what I think is obvious:  get an Elixir
   release that uses your preferred version of Erlang.  Elixir is built on top
   of Erlang.  It comes with the Erlang run-time system (and components).  It
@@ -149,9 +150,9 @@ be redundant with each other, but approach using a different angle):
   about as you consider doing a mixed development model.  Am I implementing
   non-process modules in one of these languages and calling them?  This might
   be the easiest way to get our feet wet.  We aren’t worrying about .
-{{< panel >}}
-  Rule o 2:   Decide Which is the Launching Technology?  
-{{< /panel >}}
+  
+  Rule 2:   Decide Which is the Launching Technology?  
+  
   Which process starts your application:  iex or erl?  Does it matter?  
 
   Rule 3:  Think about Rule 2 from Different Nodes
