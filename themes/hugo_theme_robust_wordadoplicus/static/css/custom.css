@@ -24,3 +24,24 @@ header .both-titles{
 footer.site  {
     background: transparent url(/images/background-bottom.png) 100% 100% repeat-x fixed;
 }
+.note {
+  background-color: #c9daf8;
+  padding: 10px;
+
+}
+.rule {
+  background-color: #fce5cd;
+  padding: 10px 10px 10px 30px;
+  margin-bottom: 10px;
+}
+.rule .rule-title{
+  font-family: Gill Sans, Verdana;
+  font-size: 11px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+.panel {
+  background-color: #fce5cd;
+}
