@@ -2,8 +2,9 @@
 date = "2016-04-12T15:37:39Z"
 draft = true
 title = "erlang and elixir feet wet"
-tags = ["erlang","elixir" ] 
+tags = ["erlang","elixir" ,"docker"] 
 image = "elixirAndErlang.png"
+categories = ["programming"]
 +++
 {{< rule title="Rule 1:">}}
   Get an Elixir Release.  It contains Erlang, but not Vice Versa

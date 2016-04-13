@@ -4,6 +4,7 @@ draft = true
 title = "getting erlang and elixir to play nice"
 tags = ["erlang","elixir" ] 
 image = "elixirAndErlang.png"
+categories = ["programming"]
 
 +++
 
