@@ -4,6 +4,6 @@ languageCode = "en-us"
 title = "Whispers of Dinotechture"
 
 [params]
-  GoogleAnalyticsUserID  = "bobby" # optional
+  GoogleAnalyticsUserID  = "UA-75318414-1" # optional
   Author = "Daniel Eklund"
   Subtitle = "A blog on Implementing Wordadoplicus.com"
