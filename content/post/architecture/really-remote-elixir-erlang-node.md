@@ -2,7 +2,7 @@
 date = "2016-04-17T15:22:35Z"
 draft = true
 title = "really remote elixir erlang node"
-tags = ["erlang","elixir" ,"docker"] 
+tags = ["erlang","elixir" ,"docker", "ssh"] 
 image = "elixirAndErlang.png"
 categories = ["architecture"]
 

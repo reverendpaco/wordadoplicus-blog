@@ -1,0 +1,1 @@
+aws iam upload-server-certificate --server-certificate-name file://wordadoplicus-only.crt --certificate-body file://wordadoplicus-only.crt  --private-key file://wordadoplicus.com.key  --certificate-chain file://intermediate.crt  --server-certificate-name wordadoplicus_crt --path /cloudfront/

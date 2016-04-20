@@ -108,20 +108,23 @@ Here are a set of questions that reflect a more mature consideration:
 
 
 {{< note >}}
-
   The following details inventory my exact environment: 
     
   <ul>
-  <li>
-   I am running Erlang OTP version 18.1 and erts 7.1 
-  </li>
-  <li>
-  My main application has a top-level supervisor, and some gen_servers and a bunch of
-  gen_fsms 
-  </li>
-  <li>
-  I have not created a formal Erlang release.  I will probably do this in the future, for the advantages that this structure conveys via other tools.  I am not convinced that I will take advantage of hot upgrades with relups, if I can use blue-green switching.  
-  </li>
+      <li> I am running Erlang OTP version 18.1 and erts 7.1 </li>
+      <li> I am using vanilla flavored rebar, (not rebar3). </li>
+      <li> My main application has a top-level supervisor, and some gen_servers and a bunch of gen_fsms </li>
+      <li> I have not created a formal Erlang release. I have an application that I launch directly from erl, which uses application:ensure_all_started/1 </li>
+      <li> I am running my Erlang application from within a Docker container, specifically trenpixster/elixir.  I am using host networking to expose epmd and other ports.  </li>
+      <li> I have the following external libraries for my production code usage (there are more, like eper, for development): </li>
+     <ul>
+        <li> cowboy </li>
+        <li> gproc </li>
+        <li> lager </li>
+        <li>gen_leader</li>
+        <li>neotoma</li>
+        <li>rfc4627_jsonrpc</li>
+     </ul>
   </ul>
 {{< /note >}}
 
