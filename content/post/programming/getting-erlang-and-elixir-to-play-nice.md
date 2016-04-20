@@ -1,11 +1,11 @@
 +++
 date = "2016-04-11T20:25:35Z"
 draft = true
-title = "getting erlang and elixir to play nice"
+title = "part 0: getting erlang and elixir to play nice"
 tags = ["erlang","elixir" ] 
 image = "elixirAndErlang.png"
 categories = ["programming"]
-
+series = ["Elixir and Erlang Together"]
 +++
 
 
@@ -108,7 +108,7 @@ Here are a set of questions that reflect a more mature consideration:
 
 
 {{< note >}}
-  The following details inventory my exact environment: 
+  The details of my exact environment: 
     
   <ul>
       <li> I am running Erlang OTP version 18.1 and erts 7.1 </li>

@@ -1,10 +1,11 @@
 +++
 date = "2016-04-12T15:37:39Z"
 draft = true
-title = "erlang and elixir feet wet"
-tags = ["erlang","elixir" ,"docker"] 
+title = "part 1: erlang and elixir feet wet"
+tags = ["erlang","elixir" ,"docker","rebar"] 
 image = "feet-wet.png"
 categories = ["programming"]
+series = ["Elixir and Erlang Together"]
 +++
 {{< rule title="Rule 1:">}}
   Get an Elixir Release.  It contains Erlang, but not vice versa.
@@ -60,10 +61,27 @@ categories = ["programming"]
   bit of Elixir magic?  My thoughts now are to create a simple Elixir module of utility
   functions and make sure that they can be called from my existing code base.
 
-  If I can do this simple thing, I will learn a lot about how these two
-  technologies interact.  Accomplishing this should go a long way to figuring out 
-  the bookkeeping issues that tend to be an impediment to adoption.  
+I created a simple elixir module in a file called `src\shared_game_utils.ex`
+
+```elixir
+ defmodule SharedGameUtils do
  
+   def create_empty_user_presences() do
+     %{ :sitting => %{},                                                                                        
+       :observing =>  %{}
+      } 
+   end
+   
+ end
+```
+which did nothing more than return an empty map of maps, (a utility function
+that I was alread using throughout my code).
+
+  So if I can get this utility module working in my existing codebase, I  will
+learn a lot about how these two technologies interact.  Accomplishing this
+should go a long way to figuring out the bookkeeping issues that tend to be an
+impediment to adoption.  
+
 {{< rule title="Rule 2:">}}
   <p>
   Use the Elixir plugin for rebar if you just want to compile some elixir code 
@@ -71,14 +89,14 @@ categories = ["programming"]
   </p>
   
   <p>
-  <a href="http://hyperthunk.github.io/rebar-plugin-tutorial/part-1-introducing-rebar-plugins/">http://hyperthunk.github.io/rebar-plugin-tutorial/part-1-introducing-rebar-plugins/</a>
+  <a href="https://github.com/yrashk/rebar_elixir_plugin">https://github.com/yrashk/rebar_elixir_plugin</a>
   </p>
 {{< /rule >}}
 
   This rule comes stright from the Elixir documentation, see [here](http://elixir-lang.org/crash-course.html#rebar-integration).
   
   I followed the instructions directly from the [elixir compiling rebar
-  plugin](), with only a few modifications which I will mention here for
+  plugin](https://github.com/yrashk/rebar_elixir_plugin), with only a few modifications which I will mention here for
   completeness:
 
 1. I did not need to add Elixir as a dependency to my project as I was already within the context of a Docker

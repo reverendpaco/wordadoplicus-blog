@@ -2,6 +2,12 @@ baseurl = "http://blog.wordadoplicus.com/"
 copyright = "&copy; 2016 Wordadoplicus LLC"
 languageCode = "en-us"
 title = "Whispers of Dinotechture"
+favicon = "images/favicon.png"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
 [params]
   GoogleAnalyticsUserID  = "UA-75318414-1" # optional

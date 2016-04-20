@@ -45,3 +45,10 @@ footer.site  {
 .panel {
   background-color: #fce5cd;
 }
+
+.series-explanation{
+  background-color: #EA7C36;
+  padding: 20px;
+font-family: 'Open Sans', sans-serif; 
+font-size: 15px; font-weight: 400; line-height: 24px;
+}
