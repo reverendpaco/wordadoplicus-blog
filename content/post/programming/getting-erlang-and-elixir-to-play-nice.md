@@ -1,7 +1,7 @@
 +++
 date = "2016-04-11T20:25:35Z"
 draft = true
-title = "part 0: getting erlang and elixir to play nice"
+title = "part 1: getting erlang and elixir to play nice"
 tags = ["erlang","elixir" ] 
 image = "elixirAndErlang.png"
 categories = ["programming"]

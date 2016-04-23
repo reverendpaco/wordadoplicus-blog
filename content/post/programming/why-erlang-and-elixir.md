@@ -1,9 +1,10 @@
 +++
 date = "2016-04-11T19:28:11Z"
 draft = true
-title = "why erlang and elixir"
+title = "part 0:  why erlang and elixir"
 image = "whyElixirAndErlang.png"
 tags = ["erlang","elixir" ] 
+series = ["Elixir and Erlang Together"]
 categories = ["programming"]
 +++
 
