@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo "export PATH=~/bin:\$PATH" >> .bashrc
 
 mkdir -p ~/opt/packages/hugo && cd $_
 wget https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_linux_amd64.tar.gz
