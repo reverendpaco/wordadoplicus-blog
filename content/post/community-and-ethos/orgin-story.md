@@ -1,6 +1,5 @@
 +++
 date = "2016-04-12T21:24:39Z"
-draft = true
 title = "orgin story"
 categories = ["community-and-ethos"]
 tags = ["yahoo","word racer","games"]
