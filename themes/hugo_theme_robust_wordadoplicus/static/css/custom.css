@@ -32,6 +32,15 @@ header .both-titles{
   text-decoration: none;
 }
 
+img.quarter-size{
+  width: 25%;
+display:block;
+}
+img.half-size{
+  width: 50%;
+display:block;
+}
+
 footer.site  img{
   height: 60px;
 }
