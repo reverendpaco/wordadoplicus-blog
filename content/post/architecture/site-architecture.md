@@ -125,7 +125,7 @@ components into instances with more appropriate resources.
 
 ## Interacting with other Architectural Systems
 The last thing I'll say about the Game Site, is that there is a lot of code that interacts with the Discourse system. 
-I had mentioned previously that Wordadoplicus is equally a gaming site and a community site.  To understand why, read the origin story.  By choosing Discourse I hoped to not have to re-invent the wheel when it came to that functionality
+I had mentioned previously that Wordadoplicus is equally a gaming site and a community site.  To understand why, [read the origin story](/post/community-and-ethos/orgin-story/).  By choosing Discourse I hoped to not have to re-invent the wheel when it came to that functionality
 needed for a forum and a community:  emailing, user management, posting, IP blocking, reporting, ACL, metrics, etc, etc, etc.
 
 On the other hand, the gaming site absolutely needs the notion of user identity that has to be tied into the forum's

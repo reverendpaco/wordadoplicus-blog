@@ -1,8 +1,9 @@
 +++
 date = "2016-04-12T21:24:39Z"
-title = "Orgin Story"
+title = "Origin Story"
 image = "OriginStory.png"
 categories = ["community-and-ethos"]
+series = ["Origin Story and Concept Pitch"]
 tags = ["yahoo","word racer","games"]
 +++
 
@@ -74,7 +75,10 @@ of your discovery your competitor sees the word ```estates``` and ```testates```
 repsectively -- shame on you! ), and 2) you might see a bigger word later.
 
 {{< note >}}
- I might as well give you a link to play this game.  I implemented a four-board, real-time,
+ I might as well give you a link to play this game, so that you can see what I'm talking about.  
+<br/>
+<br/>
+I implemented a four-board, real-time,
 non-blinded word game at the Wordadoplicus site.  It is called "Velociracers Three" and
 runs in your browser with no installs. 
 You can play it <a href="https://wordadoplicus.com/games/multiplayer/competitive/realtime/s/theVelociracersThree/spawn"> here</a>.
@@ -82,7 +86,20 @@ You can play it <a href="https://wordadoplicus.com/games/multiplayer/competitive
 <br/>
 <br/>
 I also re-implementend Word Racer (but with slightly different boards and more configuration) 
-and called it Velociracer. You can play it <a href="https://wordadoplicus.com/games/multiplayer/competitive/realtime/s/theVelociracers/spawn"> here</a>.{{< /note >}}
+and called it Velociracer. You can play it <a href="https://wordadoplicus.com/games/multiplayer/competitive/realtime/s/theVelociracers/spawn"> here</a>.
+
+<br/>
+<br/>
+Both of these games are fully functional games that can be played real-time against anyone else in the world.
+The problem, (as of this blog post's writing), is getting someone else in the world to play against you.  It's really
+quite simple, if they have the URL, so if you have someone on IM, just copy the URL at the top of the game
+and give it to them. 
+  <img src="/images/originstory-url.png"/>
+ They should appear and you can play against them.  Otherwise just play yourself
+to see how the game goes.
+
+
+{{< /note >}}
 
 
 But as I mentioned above, the game didn't enforce these rules. It was honor-based,
@@ -130,34 +147,6 @@ implement in a computationally feasible manner).  But I think you get the point.
 For anyone interested in the game rules for this fun old game, you may look at the cache for <a href="http://self.gutenberg.org/article.aspx?title=word_racer">this page</a>.  For some reason, any mention about Yahoo's Word Racer and how
 to play it seem to have been scrubbed from the internet.  The Wayback machine is useful for this as wel
 {{< /note >}}
-
-# Concept Pitch
-Wordadoplicus draws the equivalence between **dinosaurs** to **word games**.  Just as there
-were many beautiful, awesome, totally sweet **dinosaurs**, there are many
-beautiful, awesome and totally sweet **word games**.
-
-  <img src="/images/originstory-gameequalsdinosaur1.svg"/>
-  <img src="/images/originstory-gameequalsdinosaur2.svg"/>
-Each dinosaur represents a particular configuration of DNA
-and evolution and strengths and weaknesses. 
-
-Likewise does a word game. 
-
-One, like Word Racer, may be fast paced and for the young, like 
-a voracious velociraptor.  
-
-  <img class="half-size" src="/images/originstory-fastpaced.png"/>
-Another, like the typical Word Search, may be more apt
-for a more plodding ruminating herbivore (or anyone over 40 or under 6 years of age).
-
-  <img class="half-size" src="/images/originstory-slowpaced.png"/>
-
-Wordadoplicus is about understanding the constituent DNA of these games, and
-pulling them out, and asking "What monster can we breed?"
-
-  <img src="/images/originstory-lovechild.svg"/>
-
-
 
 
 <div id='discourse-comments'></div>

@@ -33,7 +33,7 @@
 {{ if .Params.series }}
     {{ $name := index .Params.series 0 }}
     <hr/>
-  <div class="series-explanation">
+  <div id="top-series" class="series-explanation">
   <p><a href="" id="series"></a>This is a post in the 
   <b>{{$name}}</b> series.
   Other posts in this series:</p>
@@ -61,7 +61,7 @@
 {{ if .Params.series }}
     {{ $name := index .Params.series 0 }}
     <hr/>
-  <div class="series-explanation">
+  <div id="bottom-series" class="series-explanation">
   <p><a href="" id="series"></a>This is a post in the 
   <b>{{$name}}</b> series.
   Other posts in this series:</p>
